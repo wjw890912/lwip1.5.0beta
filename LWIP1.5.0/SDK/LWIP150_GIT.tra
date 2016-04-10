@@ -1,0 +1,82 @@
+*** Creating Trace Output File 'LWIP150_GIT.tra' Ok.
+### Preparing for ADS-LD.
+### Creating ADS-LD Command Line
+### List of Objects: adding '"main.o"'
+### List of Objects: adding '"stm32f10x_it.o"'
+### List of Objects: adding '"stm32f107.o"'
+### List of Objects: adding '"netconf.o"'
+### List of Objects: adding '"misc.o"'
+### List of Objects: adding '"stm32f10x_adc.o"'
+### List of Objects: adding '"stm32f10x_bkp.o"'
+### List of Objects: adding '"stm32f10x_can.o"'
+### List of Objects: adding '"stm32f10x_crc.o"'
+### List of Objects: adding '"stm32f10x_dac.o"'
+### List of Objects: adding '"stm32f10x_dbgmcu.o"'
+### List of Objects: adding '"stm32f10x_dma.o"'
+### List of Objects: adding '"stm32f10x_exti.o"'
+### List of Objects: adding '"stm32f10x_flash.o"'
+### List of Objects: adding '"stm32f10x_fsmc.o"'
+### List of Objects: adding '"stm32f10x_gpio.o"'
+### List of Objects: adding '"stm32f10x_i2c.o"'
+### List of Objects: adding '"stm32f10x_iwdg.o"'
+### List of Objects: adding '"stm32f10x_pwr.o"'
+### List of Objects: adding '"stm32f10x_rcc.o"'
+### List of Objects: adding '"stm32f10x_rtc.o"'
+### List of Objects: adding '"stm32f10x_sdio.o"'
+### List of Objects: adding '"stm32f10x_spi.o"'
+### List of Objects: adding '"stm32f10x_tim.o"'
+### List of Objects: adding '"stm32f10x_usart.o"'
+### List of Objects: adding '"stm32f10x_wwdg.o"'
+### List of Objects: adding '"stm32_eth.o"'
+### List of Objects: adding '"def.o"'
+### List of Objects: adding '"dns.o"'
+### List of Objects: adding '"inet_chksum.o"'
+### List of Objects: adding '"init.o"'
+### List of Objects: adding '"mem.o"'
+### List of Objects: adding '"memp.o"'
+### List of Objects: adding '"netif.o"'
+### List of Objects: adding '"pbuf.o"'
+### List of Objects: adding '"raw.o"'
+### List of Objects: adding '"stats.o"'
+### List of Objects: adding '"sys.o"'
+### List of Objects: adding '"tcp.o"'
+### List of Objects: adding '"tcp_in.o"'
+### List of Objects: adding '"tcp_out.o"'
+### List of Objects: adding '"timers.o"'
+### List of Objects: adding '"udp.o"'
+### List of Objects: adding '"autoip.o"'
+### List of Objects: adding '"dhcp.o"'
+### List of Objects: adding '"icmp.o"'
+### List of Objects: adding '"igmp.o"'
+### List of Objects: adding '"ip4.o"'
+### List of Objects: adding '"ip4_addr.o"'
+### List of Objects: adding '"ip_frag.o"'
+### List of Objects: adding '"api_lib.o"'
+### List of Objects: adding '"api_msg.o"'
+### List of Objects: adding '"err.o"'
+### List of Objects: adding '"netbuf.o"'
+### List of Objects: adding '"netdb.o"'
+### List of Objects: adding '"netifapi.o"'
+### List of Objects: adding '"pppapi.o"'
+### List of Objects: adding '"sockets.o"'
+### List of Objects: adding '"tcpip.o"'
+### List of Objects: adding '"etharp.o"'
+### List of Objects: adding '"ethernetif.o"'
+### List of Objects: adding '"core_cm3.o"'
+### List of Objects: adding '"system_stm32f10x.o"'
+### List of Objects: adding '".\startup_stm32f10x_cl.o"'
+### ADS-LD Command completed:
+--cpu Cortex-M3 "main.o" "stm32f10x_it.o" "stm32f107.o" "netconf.o" "misc.o" "stm32f10x_adc.o" "stm32f10x_bkp.o" "stm32f10x_can.o" "stm32f10x_crc.o" "stm32f10x_dac.o" "stm32f10x_dbgmcu.o" "stm32f10x_dma.o" "stm32f10x_exti.o" "stm32f10x_flash.o" "stm32f10x_fsmc.o" "stm32f10x_gpio.o" "stm32f10x_i2c.o" "stm32f10x_iwdg.o" "stm32f10x_pwr.o" "stm32f10x_rcc.o" "stm32f10x_rtc.o" "stm32f10x_sdio.o" "stm32f10x_spi.o" "stm32f10x_tim.o" "stm32f10x_usart.o" "stm32f10x_wwdg.o" "stm32_eth.o" "def.o" "dns.o" "inet_chksum.o" "init.o" "mem.o" "memp.o" "netif.o" "pbuf.o" "raw.o" "stats.o" "sys.o" "tcp.o" "tcp_in.o" "tcp_out.o" "timers.o" "udp.o" "autoip.o" "dhcp.o" "icmp.o" "igmp.o" "ip4.o" "ip4_addr.o" "ip_frag.o" "api_lib.o" "api_msg.o" "err.o" "netbuf.o" "netdb.o" "netifapi.o" "pppapi.o" "sockets.o" "tcpip.o" "etharp.o" "ethernetif.o" "core_cm3.o" "system_stm32f10x.o" ".\startup_stm32f10x_cl.o" --strict --scatter "LWIP150_GIT.sct" 
+--autoat --summary_stderr --info summarysizes --map --xref --callgraph --symbols 
+--info sizes --info totals --info unused --info veneers 
+ --list ".\LWIP150_GIT.map" -o "LWIP150_GIT.axf"### Preparing Environment (PrepEnvAds)
+### ADS-LD Output File: 'LWIP150_GIT.axf'
+### ADS-LD Command File: 'LWIP150_GIT.lnp'
+### Checking for dirty Components...
+### Creating CmdFile 'LWIP150_GIT.lnp', Handle=0x00000180
+### Writing '.lnp' file
+### ADS-LD Command file 'LWIP150_GIT.lnp' is ready.
+### ADS-LD: About to start ADS-LD Thread.
+### ADS-LD: executed with 0 errors
+### Updating obj list
+### LDADS_file() completed.

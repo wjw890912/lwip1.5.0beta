@@ -1,0 +1,12 @@
+LWIP 1.5.0 移植笔记
+
+
+
+1、资源：
+lwIP - A Lightweight TCPIP stack
+git clone git://git.savannah.nongnu.org/lwip.git
+使用git CMD下载源码到目录
+
+2、增加MCU必要文件和建立工程目录
+
+3、完成移植。编译通过-未写入硬件测试  20160409

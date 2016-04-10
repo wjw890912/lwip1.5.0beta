@@ -1,0 +1,17 @@
+mem.o: ..\lwip\src\core\mem.c
+mem.o: ..\lwip\src\include\lwip/opt.h
+mem.o: ..\lwip\test\unit\lwipopts.h
+mem.o: ..\lwip\src\include\lwip/debug.h
+mem.o: ..\lwip\src\include\lwip/arch.h
+mem.o: ..\lwip\archport\arch/cc.h
+mem.o: ..\lwip\archport\arch/cpu.h
+mem.o: ..\lwip\src\include\lwip/opt.h
+mem.o: ..\lwip\src\include\lwip/def.h
+mem.o: ..\lwip\src\include\lwip/mem.h
+mem.o: ..\lwip\src\include\lwip/sys.h
+mem.o: ..\lwip\src\include\lwip/stats.h
+mem.o: ..\lwip\src\include\lwip/memp.h
+mem.o: ..\lwip\src\include\lwip/priv/memp_std.h
+mem.o: ..\lwip\src\include\lwip/priv/memp_std.h
+mem.o: ..\lwip\src\include\lwip/err.h
+mem.o: E:\Keil\ARM\RV31\INC\string.h
